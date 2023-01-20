@@ -1,0 +1,7 @@
+pour acceder à partir d'un navigateur de host local aux services exposé via ingress de minikube 
+il va falloir ajouter une ligne dans le ficher /etc/hosts :
+        IP_INGRESS   NOM_DOMAIN_EXPOSé
+
+
+pour se connecter au réseau hyper-v de  la machien local "host.minikube.internal"
+il va falloir désactiver le defender firewall sur le réseau publique 
